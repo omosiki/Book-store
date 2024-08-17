@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Mooli", sans-serif;
+    overflow: hidden;
+
+}
+body {
+    background-color: #fff9fa;
+}
+
+.hero {
+    background: url('https://shorturl.at/F6EgE') no-repeat center center;
+    background-size: cover;
+    height: 400px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+.hero p{
+    display: block;
+}
+.contain{
+    padding: 0 6rem;
+    /* position: "stick"; */
+}
+.navB{
+  
+    margin-left: 40rem;
+}
+.sectionOne{
+    margin: 3rem 0;
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+.sectionOne h2{
+    color: #dd97ad;
+}
+.sectionOne p{
+    color: #aaa;
+}
+.container-trending{
+    width: 80%;
+   margin: auto;
+}
+.femi{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    
+}
+.grid{
+   
+    border-radius: 2rem;
+    /* overflow: hidden; */
+    width: 80%;
+   margin: auto;
+
+         
+    }
+.grid img{
+       
+        /* border-radius: 2rem; */
+}
+.data{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+    border-radius: 1rem;
+   /* position: relative; */
+  
+}
+
+.data h2{
+font-size: 1rem;
+font-weight: 500;
+}
+
+.data h4{
+color: #f3c8d7;
+}
+.data h6{
+    color: rgb(177, 218, 232);
+}
+.small{
+    color: #aaa;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .navB{
+        margin-left: 0;
+        
+    }
+    /* treding section */
+    .container-trending{
+        width: 80%;
+       margin: auto;
+    }
+    .femi{
+        /* width: 80%; */
+        /* margin: 0 auto; */
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+@media screen and (min-width:769px) {
+   
+}

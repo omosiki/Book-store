@@ -1,0 +1,21 @@
+import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./component/Home";
+import Category from "./component/Category";
+import Trending from "./component/Trending";
+import Daily from "./component/Daily";
+
+function App() {
+  return (
+    <Router>
+      <Routes>
+      <Route path="/" element={<Home/>}/>
+      <Route path="/categories" element={<Category/>}/>
+      <Route path="/trending" element={<Trending/>}/>
+      <Route path="/daily" element={<Daily/>}/>
+      </Routes>
+    </Router>
+  );
+}
+
+export default App;
