@@ -18,7 +18,7 @@ const Navba = () => {
                    </Navbar.Collapse>
                </Navbar>
 
-      <div className="hero">
+      {/* <div className="hero">
                 <h1>Welcome to Our Bookstore</h1><br/>         
     </div>
 
@@ -47,7 +47,7 @@ const Navba = () => {
                     <h2>Wishlist</h2>
                     <p>Your favorite books are just a click away.</p>
                 </section>
-            </div> 
+            </div>  */}
             
         
   </>

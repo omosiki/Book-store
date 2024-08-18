@@ -4,7 +4,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Mooli", sans-serif;
-    overflow: hidden;
+    /* overflow: hidden; */
 
 }
 body {
@@ -34,7 +34,7 @@ body {
 }
 .navB{
   
-    margin-left: 40rem;
+    margin-left: 15rem;
 }
 .sectionOne{
     margin: 3rem 0;
@@ -50,13 +50,14 @@ body {
 }
 .container-trending{
     width: 80%;
-   margin: auto;
+   margin:  auto;
+   /* padding-bottom: 20rem; */
 }
 .femi{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
-    
+    /* margin-bottom: 10rem; */
 }
 .grid{
    
@@ -97,10 +98,183 @@ color: #f3c8d7;
     color: #aaa;
 }
 
+/* Home section */
+video {
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://shorturl.at/v1mK2");
+    background-size: contain;
+    background-repeat: no-repeat; 
+}  
+.homeCover{
+    /* margin: 0 4rem; */
+}
+.homeContain{
+    text-align: center;
+    margin-top: -12rem;
+    height: 400px;
+  }
+  .homeContain h2{
+    font-size: 3rem;
+    color: rgb(18, 18, 18);
+    /* margin-bottom: 50rem; */
+    font-weight: 500;
+    padding-bottom: 10px;
+  }
+  .homeContain a{
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(11, 10, 10);
+    border: 2px solid #f9f6f6;
+    padding: 10px 15px;
+    border-radius: 50px;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+ .homeContain a:hover{
+    background: rgb(191, 220, 240);
+    color: rgb(232, 172, 225);
+  }
+
+/* campus */
+                                                                                       
+
+.campus{
+    width: 80%;
+    /* height: 100vh; */
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+
+}
+.campusFo{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    
+}
+.row{
+    /* margin-top: 5%; */
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+.campus-col{
+   
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    
+    border-radius: 2rem;
+    /* overflow: hidden; */
+    width: 80%;
+   margin: auto;
+}
 
 
+.campus-col img{
+    width: 100%;
+    display: block;
+}
+
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.layer:hover{
+    background: rgba(177, 221, 234, 0.7);
+}
+
+.layer h3,
+.layer h4{
+    width: 100%;
+    font-weight: 500;
+    color: #161515;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
 
 
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+.layer:hover h4{
+    bottom: 40%;
+    opacity: 1;
+}
+    /* footer */
+    .footer{
+        width: 100%;
+        text-align: center;
+        /* padding: 30px 0; */
+        margin-top: 8rem;
+        height: 50vh;
+        /* background: blue; */
+        }
+        
+        .footer h4{
+            /* margin-bottom: 25px; */
+            margin-top: 20px;
+            font-weight: 600px;
+            font-size: 2rem;
+        }
+        .footer p{
+            font-size: 1rem;
+            font-weight: 500;
+            padding-top: 10px;
+        }
+        
+        .icons .icon{
+        color: hsl(139, 66%, 83%);
+        margin: 0 13px;
+        cursor: pointer;
+        /* padding: 18px 0; */
+        }
+        
+        .icon{
+            color: hsl(139, 66%, 83%);
+            font-size: 2rem;
+            transition: 4ms;
+            cursor: pointer;
+        }
+        .icon:hover{
+            color: #e17899;
+
+        }
+
+    /* searchform */
+    .search-form{
+         width: 100%;
+         max-width: 680px;
+
+    }
+    .search-form-elem{
+        padding: 1.4rem 2.4rem;
+        border-radius: 3.8rem;
+    }
+    .search-form-elem .form-control{
+        font-size: 2rem;
+        padding: 0.6rem;
+    }
+    .search-form-elem .form-control::placeholder{
+        opacity: 0.9;
+    }
 @media screen and (max-width: 768px) {
     .navB{
         margin-left: 0;
@@ -118,7 +292,14 @@ color: #f3c8d7;
         flex-direction: column;
 
     }
-}
-@media screen and (min-width:769px) {
+    .campusFo{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10rem;
+    }
+   .footer{
+    /* margin-top: 100rem; */
+   }
+   
    
 }

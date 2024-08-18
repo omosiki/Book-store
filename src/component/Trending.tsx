@@ -1,8 +1,7 @@
-import { Title } from '@mui/icons-material';
 import React from 'react'
 import { Navbar, Nav } from 'react-bootstrap';
 import styled from 'styled-components'
-
+import Footer from "../component/Footer"
 const Data = [
     {
         "id": "1",
@@ -89,13 +88,13 @@ const Trending = () => {
        </Div>
        <section className='sectionOne'>
           <h2> Beautiful trending books</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque dolores veniam ex officiis ab. Quis? </p>
+            <p>Find the best books form of their favourite writer.</p>
        </section>
        {/* display */}
        <div className='container-trending' >
             <div className='femi'>
             {
-             Data.map(({ id, img, title, author, publishedYear, genre, price }) => (
+             Data.map(({ id, img, author, publishedYear, price }) => (
             <div key={id} className='grid'>
             <img src={img} alt={id} />
             <div className="data">
@@ -111,6 +110,9 @@ const Trending = () => {
 
             </div>
        </div>
+{/* footer */}
+<Footer/>
+      
     </>
   )
 }

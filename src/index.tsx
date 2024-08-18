@@ -12,6 +12,7 @@ import { Provider } from "react-redux";
 import { ThemeProvider } from "@mui/material/styles";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+
 ReactDOM.createRoot(document.querySelector("#root")!).render(
   
     <Provider store={store}>
