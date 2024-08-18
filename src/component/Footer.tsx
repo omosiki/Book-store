@@ -9,7 +9,7 @@ const Footer = () => {
     <div>
       <section className="footer">
     <h4>About Us</h4>
-    <p>ZikrahBooks  is a website that allow user to Find the best books for your favourite writer.</p>
+    <p>ZikrahBooks  is a website that allow user to search the best books for their favourite writer.</p>
     
     <div className="icons">
     <FaFacebook className='icon'/>

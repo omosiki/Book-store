@@ -6,7 +6,7 @@ const AppContext = React.createContext();
 
 
 
-    const AppProvider = ({children}) =>{
+    const Data = ({children}) =>{
         const [searchTerm, setSearchTerm] = useState("The lost world...")
         const [books, setBooks] = useState([]);
         const [loading, setLoading] = useState(true);
@@ -51,5 +51,5 @@ const AppContext = React.createContext();
 export const useGlobalContext = () => {
     return useContext(AppContext)
 }
-export {AppContext, AppProvider}
+export {AppContext, Data}
 

@@ -1,11 +1,11 @@
 import "./App.css";
-import {AppProvider} from "./Data"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./component/Home";
 import Category from "./component/Category";
 import Trending from "./component/Trending";
 import Daily from "./component/Daily";
-import Navba from "./component/Navba";
+// import Navba from "./component/Navba";
+import Data from "./component/Data"
 
 function App() {
   return (

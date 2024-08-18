@@ -3,7 +3,7 @@ import { Navbar, Nav } from 'react-bootstrap';
 import styled from 'styled-components';
 import backgroundVideo from "../../src/image/book-Video.mp4";
 import Footer from "../component/Footer"
-
+import { FaHeart } from "react-icons/fa";
 const Hero = [
   {
     "id": "1",
@@ -75,7 +75,7 @@ const Home = () => {
   return (
     <>
       <Navbar bg="light" expand="lg" className='contain'>
-        <Navbar.Brand href="#home">BookStore</Navbar.Brand>
+        <Navbar.Brand href="#home" className='brand'>Lola-Books<FaHeart className='icon'/></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto navB ">
@@ -96,7 +96,7 @@ const Home = () => {
           </video>
           <div className="homeContain">
             <h2>Explore more</h2>
-            <a href="#">View More</a>
+            <button>View More</button>
           </div>
         </div>
       </section>

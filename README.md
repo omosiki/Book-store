@@ -1,15 +1,13 @@
-# React Vite
+Welcome !!
+ This is a simple  book-store web application built with react that allows user to view variety of books along side the author, price etc.
 
-This project it a skeleton of **React** and **Vite** (and **Typescript**)! It was created to ensure a clean slate, with production grade features such as properly configured **eslint**, using **Vite** and **SWC** for a faster development experience and hot reloads. **Vite** also uses **Rollup** as a bundler, which is much more efficient than standard **Webpack**.
+features: 
+It display a list of books with titles, authour, and publishedYear,It is a responsive design that work well on both desktop and mobile devices.
+It has a search bar at the home page where You can search your books directly .
+Map through the data and display using grid
 
-## Commands
 
-- npm start - run your project in development mode
-- npm run lint - check your project for any warnings via **eslint**
-- npm run format - format your project using **prettier**
-- npm run build - build your project
-- npm run preview - test your built project
-
-## Types folder
-
-The **tsconfig.json** is already set up to handle types from a `@types` folder inside the `src` directory.
+Technology used 
+React,
+CSS,
+JSON
